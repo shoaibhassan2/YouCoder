@@ -35,12 +35,12 @@ def main(): # ciphered url https://youtu.be/sZtp-2R4hRo
     if youtube.jsondata:
         print(json.dumps(youtube.jsondata, indent=4))
     else:
-        print(f'{EXT_BLUE}[!] : {RED}could not extract data{RESET}')
+        print('could not extract data')
     
 
 if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        print(f'{EXT_BLUE}[!] : {RED}Interrupted by user{RESET}')
+        print('Interrupted by user')
 ```
