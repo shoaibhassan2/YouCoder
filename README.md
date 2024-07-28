@@ -20,7 +20,7 @@
   - Video-only
 
 ## Installation 
--Directly download this single file and import it and use it.
+-Directly download all information and formats about video and use it.
 
 ## Usage
 ```python
