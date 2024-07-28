@@ -29,7 +29,7 @@ import json
 # Main function to demonstrate functionality
 def main(): # ciphered url https://youtu.be/sZtp-2R4hRo
             # simple url https://youtu.be/5Ga1IXE-hLs
-    youtube = YouTube('https://youtu.be/5Ga1IXE-hLs')\
+    youtube = YouTube('https://youtu.be/5Ga1IXE-hLs')
 
     youtube.parse_player_response()
     if youtube.jsondata:
